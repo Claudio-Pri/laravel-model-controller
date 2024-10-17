@@ -7,4 +7,14 @@
     Laravel Model Controller
 </h1>
 
+<main>
+    <ul>
+        @foreach ($movies as $movie)
+            <li>
+                {{ $movie }}
+            </li>
+        @endforeach
+    </ul>
+</main>
+
 @endsection
