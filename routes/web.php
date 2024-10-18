@@ -3,7 +3,8 @@
 //sintassi controller
 use App\Http\Controllers\Guest\PageController;
 
-
+//models
+// use App\Models\Movie;
 
 use Illuminate\Support\Facades\Route;
 
